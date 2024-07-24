@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--This is the responsive step-->
+    <title>Guessing Game</title>
+    <!--HEADING OF THE PROJECT -->
+    <link rel="shortcut icon" href="../Images/GG-1-removebg-preview.png" type="image/x-icon">
+    <!--THIS SHORTCUT  ICON IS USED FOR ICON IN THE TOP OF THE TAB-->
+    <link rel="stylesheet" href="./GuessingGame.css">
+    <!--CONNECTING THE CSS PROGRAM TO HTML PROGRAMM-->
+</head>
+<body>
+    <header>
+        <h1 id="header">Wellcome to Guessing Game</h1>
+    </header>
+    <!-- H1 is a heading tag used to print the  words as a heading-->
+    <br><!--br is a break tag-->
+    <h3 id="Discription">Discription:-</h3>
+    <!-- It is a heading tag-->
+     <br> 
+           <!--It is a pre tag used to write the exact allignment which was written inside the tag--> 
+        <ul id="states">
+            <li class="rules">You have to guess the number which is gererated by the computer.</li>
+            <li class="rules">You will be given only 5 chance, within these 5 changces,if you guess the number correctly you will win the game.</li>
+            <li class="rules">If you can't guess the number correctly within the chances then you will loose the game, but you can countinue the game by clicking on play again.</li>
+            <li class="rules">On the starting of the game you will have 20 points if you guess the wrong number you will loose 2 points if you guess the number correctly than you will get 10 points.</li>
+            <li class="rules">If you guess the number out of the range you will loose 10 points.</li>
+            <li class="rules">We will given some hints to you, to guess the number correctly....</li>
+        </ul>
+
+    <br><br><br>
+
+    <script src="./GuessingGame.js"></script>
+    <div id="box">
+        <br>
+        <p id="title">Guess the number</p>
+        <br>
+        <form>
+            <br><br>
+            <button id="pa">Play Again</button>
+            <p id="number">?</p>
+            <p id="hint">Guess the number between 1 - 100</p>
+            <br><br><br>
+            <p id="start">Start the game...... </p>
+            <br><br><br>
+            <button id="leader">Leader Board</button>
+            <input type="text" id="enter" placeholder="Guess the number">
+            <p id="points">points</p>
+            <br><br><br>
+            <input type="submit" id="submit">
+            <br>
+            <p id="rhint"></p>
+        </form>
+    </div>
+     
+</body>
+</html>

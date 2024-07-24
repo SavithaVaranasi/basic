@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(241, 8, 47);
+    height: 45vw;
+}
+
+#header {
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+    color: azure;
+    text-align: center;
+    text-shadow: 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.5);
+    margin-top: 2vw;
+}
+
+#Discription {
+    font-size: 2.5vw;
+    color: azure;
+    font-style: italic;
+}
+
+#states {
+    list-style-type: disc;
+    margin-left: 2vw;
+}
+
+.rules {
+    font-size: 1.3vw;
+    color: azure;
+}
+#box{
+    width: 60vw;
+    height: 23vw;
+    background-color: azure;
+    border-style: solid; 
+    border-color: black;
+    margin-left: 20vw;
+    border-radius: 5vw;
+    box-shadow: 0.3vw 0.3vw 0.3vw rgb(66, 38, 0), -0.3vw -0.3vw 0.3vw rgb(77, 44, 0);
+    display: flexbox;
+}
+
+#title{
+    text-align: center;
+    font-size: 2.5vw;
+    color: rgb(241, 8, 47);
+}
+
+#pa{
+    width: 6vw;
+    height: 2vw;
+    background-color:rgb(241, 8, 47) ;
+    font-style: italic;
+    font-size: 1vw;
+    color: black;
+    float: left;
+    margin-left: 7vw;
+    border-radius: 3vw;
+}
+#number{
+    width: 6vw;
+    height: 1.2vw;
+    background-color:rgb(241, 8, 47);
+    text-align: center;
+    color: black;
+    float: left;
+    margin-left: 12vw;
+    border-style: solid;
+    border-color: black;
+}
+#hint{
+    color:rgb(241, 8, 47) ;
+    margin-left: 40vw;
+    font-size: 1.2vw;
+   
+}
+#start
+{
+    font-style: italic;
+    font-size: 1.3vw;
+    margin-left: 24vw;
+    color:rgb(241, 8, 47) ;
+}
+#leader{
+    background-color: rgb(241, 8, 47);
+    width: 7vw;
+    height: 1.2vw; 
+    margin-left: 7vw;
+    font-size: 0.8vw;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    border-radius: 2vw;
+}
+#enter{
+    background-color: rgb(241, 8, 47);
+    width: 7vw;
+    height: 1.2vw;
+    margin-left: 11vw;
+    font-size: 0.8vw;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+#submit{
+    background-color: rgb(241, 8, 47);
+    width: 7vw;
+    height: 1.2vw;
+    margin-left: 25vw;
+    font-size: 0.8vw;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+#points{
+    width: 6vw;
+    height: 1.5vw;
+    background-color:rgb(241, 8, 47) ;
+    font-style: italic;
+    font-size: 1vw;
+    color: black;
+    border-radius: 3vw;
+    border-style: solid;
+    border-color: black;
+    margin-left: 45vw;
+    text-align: center;
+
+}
+#rhint{
+    font-size: 1vw;
+    color: black;
+    text-align: center;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px)
+{
+    #header{
+        font-size: 4.5vw;
+    }
+    #Discription{
+        font-size: 3vw;
+    }
+    .rules{
+        font-size: 1.8vw;
+    }
+    #states{
+        margin-left: 3vw;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px)
+{
+    #header{
+        font-size: 4.5vw;
+    }
+    #Discription{
+        font-size: 3vw;
+    }
+    .rules{
+        font-size: 1.8vw;
+    }
+    #states{
+        margin-left: 3vw;
+    }
+}
+@media only screen and (min-width: 950px) and (max-width: 1199px)
+{
+    #header{
+        font-size: 6vw;
+    }
+    #Discription{
+        font-size: 3.8vw;
+    }
+    .rules{
+        font-size: 2.7vw;
+    }
+    #states{
+        margin-left: 3.5vw;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 950px)
+{
+    #header{
+        font-size: 7.2vw;
+    }
+    #Discription{
+        font-size: 4.6vw;
+    }
+    .rules{
+        font-size: 3.5vw;
+    }
+    #states{
+        margin-left: 4vw;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 649px)
+{
+    #header{
+        font-size: 8vw;
+    }
+    #Discription{
+        font-size: 5.4vw;
+    }
+    .rules{
+        font-size: 4.2vw;
+    }
+    #states{
+        margin-left: 4.5vw;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 399px)
+{
+    #header{
+        font-size: 9.5vw;
+    }
+    #Discription{
+        font-size: 6.2vw;
+    }
+    .rules{
+        font-size: 5.2vw;
+    }
+    #states{
+        margin-left: 5.5vw;
+    }
+}
